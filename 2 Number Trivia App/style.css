@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(41, 49, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Ensure full height for centering */
+}
+.heading{
+    margin: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+.main {
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    display: flex; /* Add flex for inner content alignment */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center children */
+    justify-content: center; /* Center children */
+}
+
+.inp-num {
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px rgb(1, 1, 14);
+}
+
+.get-fact {
+    height: 40px;
+    width: 130px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(105, 147, 226);
+    box-shadow: 5px 5px 10px blue;
+}
+
+.get-fact:hover {
+    background-color: rgb(7, 7, 112);
+}
+
+.get-fact:active {
+    background-color: green;
+}
+
+.rand-fact {
+    height: 40px;
+    width: 280px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px blue;
+    border-radius: 10px;
+    background-color: rgb(105, 147, 226);
+}
+
+.rand-fact:hover {
+    background-color: rgb(0, 80, 150); /* Change hover color */
+}
+
+.rand-fact:active {
+    background-color: rgb(0, 100, 0); /* Change active color */
+}
+
+.fact {
+    background-color: white;
+    box-shadow: 0 0 1.2rem rgba(0, 4, 52, 0.1);
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 7px solid #566fff;
+    text-align: justify;
+    box-shadow: 5px 5px 10px blue;
+}
+
+.fact h2 {
+    font-size: 30px;
+    color: rgb(3, 3, 67);
+}
+
+.fact p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
