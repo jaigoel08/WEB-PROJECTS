@@ -21,7 +21,7 @@ body {
 .main {
     border: 2px solid black;
     border-radius: 25px;
-    height: 300px;
+    height: 400px;
     width: 400px;
     background-color: white;
     display: flex; /* Add flex for inner content alignment */

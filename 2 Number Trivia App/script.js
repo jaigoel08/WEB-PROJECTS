@@ -16,7 +16,7 @@ let fetchFact = (num) => {
 let getFact = () => {
     let num = document.getElementsByClassName('inp-num')[0].value; // Access first element
     if (num) {
-        if (num >= 0 && num <= 300) {
+        if (num >= 0 && num <= 1000) {
             fetchFact(num);
         } else {
             fact.style.display = "block";
