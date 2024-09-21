@@ -1,0 +1,62 @@
+body{
+   background-color: bisque;
+    height: 100vh;
+   
+}
+.choice-button{
+    padding: 8px 15px;
+    background-color: #4caf4f;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+
+   
+}
+.choice-button:hover{
+    background-color: #45a049;
+}
+
+.choice-button:active{
+    background-color: red;
+}
+.title-para{
+    text-align: center;
+}
+.my-buttons{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.result-para{
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rock-button{
+    margin: 10px;
+}
+#paper-button{
+    margin: 10px;
+}
+.click-one{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#reset-button{
+    margin: 15px; padding: 5px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: red;
+}

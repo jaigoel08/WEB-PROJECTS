@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+    <title>ROCK PAPER SCISSOR GAME</title>
+    <script src="script.js"></script>
+</head>
+<body>
+  <h1 class="title-para">ROCK PAPER SCISSOR GAME</h1>  
+  <p class="click-one">Click One Of The Following </p>
+  <div class="my-buttons">
+    <button class="choice-button" id="rock-button" onclick="ifRock()">✊Rock</button>
+    <button class="choice-button" id="paper-button" onclick="ifPaper()">📃Paper</button>
+    <button class="choice-button" id="scissor-button" onclick="ifScissor()">✂️Scissor</button>
+  </div>
+  
+<div class="result-para">
+  <h4 id="user-choice"></h4>
+  <h4 id="comp-choice"></h4>
+  <h4 id="result"></h4>
+  <h4 id="score">No games played yet</h4>
+  <button id="reset-button" onclick="resetScore()">Reset</button>
+</div>
+ 
+</body>
+</html>
