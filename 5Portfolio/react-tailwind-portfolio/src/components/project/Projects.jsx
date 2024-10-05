@@ -15,6 +15,11 @@ const Projects = () => {
       desc: "Created a responsive dashboard for social media analytics, featuring real-time data visualization and reporting.",
       techUsed: ["React.js", "HTML", "CSS", "JavaScript"],
     },
+    {
+      title: "Number Trivia App:",
+      desc: "Created a number trivia app my tells random facts related to the number entered.",
+      techUsed: ["HTML", "CSS", "JavaScript"],
+    },
   ];
 
   return (
