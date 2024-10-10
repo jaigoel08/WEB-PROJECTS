@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import Heading from './components/Heading';
 function App() {
   const [task, setTask] = useState("");
   const [date, setDate] = useState("");
@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold mb-6 text-center">To-Do App</h1>
+        <Heading />
 
         {/* Input Section */}
         <div className="flex mb-6">
