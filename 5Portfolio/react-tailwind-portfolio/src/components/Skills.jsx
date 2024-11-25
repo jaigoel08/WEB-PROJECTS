@@ -3,7 +3,7 @@ import Section from "./Section";
 import { Code } from 'lucide-react';
 
 const Skills = () => {
-  const skillTitles = ["JavaScript", "React", "Java", "DSA", "SQL", "Git", "Tailwind"];
+  const skillTitles = ["JavaScript", "React", "Java", "DSA", "SQL", "Git", "Tailwind" , "Express.js" , "Node.js" , "MongoDb"];
   return <Section icon={<Code />} sectionTitle="Skills">
     {skillTitles.map(title => <Pill title={title} />)}
   </Section>

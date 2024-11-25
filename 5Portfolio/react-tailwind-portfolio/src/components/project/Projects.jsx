@@ -5,9 +5,9 @@ import Project from "./Project";
 const Projects = () => {
   const projectList = [
     {
-      title: "E-commerce Platform:",
+      title: "airbnb Platform:",
       desc: "Developed a fully-functional e-commerce platform with user authentication, product management, and payment integration.",
-      techUsed: ["HTML", "CSS", "JavaScript", "React.js"],
+      techUsed: ["HTML", "CSS", "JavaScript", "React.js" , "Node.js" , "Express.js"],
     },
 
     {
